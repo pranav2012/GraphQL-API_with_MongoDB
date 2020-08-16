@@ -1,0 +1,29 @@
+{
+  "name": "graphql-with-mongodb",
+  "version": "1.0.0",
+  "description": "GraphQL API for user and user data using MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranav2012/GraphQL-API_with_MongoDB.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "pranav agarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pranav2012/GraphQL-API_with_MongoDB/issues"
+  },
+  "homepage": "https://github.com/pranav2012/GraphQL-API_with_MongoDB#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
